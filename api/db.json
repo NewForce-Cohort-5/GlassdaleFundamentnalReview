@@ -1,0 +1,44 @@
+{
+  "party": [
+    {
+      "id": 1,
+      "name": "John Stamos",
+      "age": 58,
+      "favoriteDish": "Sweet Potatoes",
+      "rightHanded": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRswV8rkX_9XlysOOUTijtVzzLvvpGHynHcQQ&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "name": "Adele",
+      "age": 33,
+      "favoriteDish": "Sweet Potatoes",
+      "rightHanded": false,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGQRcW2nVnJNW7rQOayUs5zvVYlqLkZMJIg&usqp=CAU"
+    },
+    {
+      "name": "Greg",
+      "age": 15,
+      "favoriteDish": "Ham",
+      "rightHanded": true,
+      "imageUrl": "#",
+      "id": 7
+    },
+    {
+      "name": "Liz",
+      "age": 16,
+      "favoriteDish": "Pie",
+      "rightHanded": false,
+      "imageUrl": "#",
+      "id": 8
+    },
+    {
+      "name": "Sarah ",
+      "age": 26,
+      "favoriteDish": "The Tea",
+      "rightHanded": true,
+      "imageUrl": "#",
+      "id": 9
+    }
+  ]
+}
