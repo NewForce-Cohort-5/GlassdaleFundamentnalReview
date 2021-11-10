@@ -22,3 +22,22 @@ export const saveGuest = guest => {
     })
     .then(getGuests) // After we add a note, get them all again so our new note appears in our collection
 }
+
+
+
+
+export const removeGuest = guestId => {
+    return fetch(`http://localhost:8088/party/${guestId}`, {
+        method: "DELETE"
+    })
+    .then(getGuests)
+}
+
+
+// Testing what happens if you don't add an Id
+//This code won't work
+// export const removeGuest = guestId => {
+//     return fetch(`http://localhost:8088/party`, {
+//         method: "DELETE"
+//     })
+// }
